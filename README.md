@@ -16,6 +16,8 @@
 ```
 在docker上部署的tensorflow serving上进行测试时，从摄像头的帧率大概为每秒10帧。
 
+![1](gifhome_640x480.gif)
+
 ## 环境
 1、python3.5+ (anaconda recommend)                             
 2、[opencv(cv2)](https://pypi.org/project/opencv-python/)   , [tfplot](https://github.com/wookayin/tensorflow-plot)             
