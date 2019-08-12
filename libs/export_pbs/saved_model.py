@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.python.saved_model import signature_constants
 from tensorflow.python.saved_model import tag_constants
 
-export_dir = "/home/yimu/project/FPN_Tensorflow-master/output/Pbs/model/model"
+export_dir = "/home/yimu/project/FPN_Tensorflow-master/output/Pbs/model/model/1"
 graph_pb = '/home/yimu/project/FPN_Tensorflow-master/output/Pbs/0809_Frozen.pb'
 
 builder = tf.saved_model.builder.SavedModelBuilder(export_dir)
